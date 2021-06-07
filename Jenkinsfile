@@ -9,7 +9,7 @@ pipeline {
 
         stage('test'){
             steps {
-                sh 'echo "hola mundo"'
+                sh 'yarn test'
             }
         }
 
