@@ -15,7 +15,7 @@ pipeline {
 
         stage('run'){
             steps {
-                sh 'node server.js'
+                sh 'forever -w start server.js'
             }
         }
 
